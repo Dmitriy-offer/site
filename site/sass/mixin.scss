@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Revalia&display=swap');
+$blue:#34547A;
+$gray: #EEEFF1;
+$gr:#5F5D5D;
+$white: #fff;
+$swhite:#E5E5E5;
+$col:#727272;
+$fontf:'Roboto', sans-serif;
+$fonta: 'Revalia',cursive;
+
+@mixin font ($fontsize,$fontfamily ) {
+    font-size: $fontsize ;
+    font-family: $fontfamily;
+}
+@media (min-width: 576px) { 
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

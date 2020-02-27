@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Revalia&display=swap");
+header {
+  height: 700px;
+  background-color: #EEEFF1;
+  max-width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.lg {
+  margin-top: 4%;
+}
+.lg span {
+  font-size: 48px;
+  font-family: "Revalia", cursive;
+  color: #34547A;
+}
+
+.list ul {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 12%;
+  max-width: 100%;
+  height: auto;
+}
+.list ul li {
+  display: inline;
+  margin-right: 45px;
+}
+.list ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.picture {
+  margin-top: 16%;
+}
+.picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+.block {
+  margin-top: 16%;
+  margin-bottom: 100px;
+  max-width: 100%;
+}
+.block h1 {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+}
+.block p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #727272;
+  margin: 60px 0 60px 0;
+  line-height: 25px;
+}
+.block button {
+  background-color: #34547A;
+  color: #fff;
+  width: 225px;
+  height: 65px;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+
+.aboutme {
+  background-color: #E5E5E5;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.info {
+  margin-top: 120px;
+}
+.info p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 50px 0 100px 0;
+  color: #727272;
+  line-height: 25px;
+}
+.info h2 {
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+}
+
+.pr {
+  height: 250px;
+  background-color: #34547A;
+}
+.pr img {
+  position: absolute;
+  margin-top: 100px;
+  max-width: 50%;
+}
+.pr h3 {
+  margin: 105px 0 0 70px;
+  color: #fff;
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  font-size: 1.1vw;
+}
+.pr p {
+  margin-left: 44%;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5px;
+  font-size: 1vw;
+}
+
+.skils {
+  height: 640px;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.skils h2 {
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  margin: 44% 57% 10% 0;
+}
+.skils p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 17px 0;
+  color: #727272;
+  line-height: 25px;
+}
+.skils .k {
+  position: absolute;
+  max-width: 90%;
+  height: auto;
+}
+.skils .j {
+  position: absolute;
+  max-width: 50%;
+  height: auto;
+}
+.skils .ok {
+  margin-bottom: 12%;
+}
+.skils .ok img {
+  width: auto;
+}
+.skils .last {
+  margin-top: 7%;
+}
+.skils .last img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.howIwork {
+  height: 1000px;
+  background-color: #EEEFF1;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.howIwork .info {
+  margin-top: 120px;
+}
+.howIwork .info p {
+  margin: 50px 0 50px 0;
+  color: #727272;
+}
+
+.video {
+  position: relative;
+}
+.video img {
+  max-width: 100%;
+}
+.video .v {
+  position: absolute;
+}
+.video .i {
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 44%;
+}
+
+.screen {
+  height: 1280px;
+  max-width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.screen .container-fluid {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.screen img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.screen .microsoft {
+  margin-top: 120px;
+}
+
+.website {
+  height: 770px;
+  background-color: #E5E5E5;
+  max-width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.website p {
+  margin-bottom: 65px;
+}
+.website .form-control {
+  height: 50px;
+  font-size: 14px;
+}
+.website ::-webkit-input-placeholder {
+  color: #5F5D5D;
+  font-family: "Roboto", sans-serif;
+}
+.website :-ms-input-placeholder {
+  color: #5F5D5D;
+  font-family: "Roboto", sans-serif;
+}
+.website ::-ms-input-placeholder {
+  color: #5F5D5D;
+  font-family: "Roboto", sans-serif;
+}
+.website ::placeholder {
+  color: #5F5D5D;
+  font-family: "Roboto", sans-serif;
+}
+.website button {
+  background-color: #34547A;
+  color: #fff;
+  width: 160px;
+  height: 65px;
+  margin: 50px 0 50px 0;
+  text-transform: uppercase;
+}
+
+.mas {
+  margin-top: 20px;
+}
+.mas .form-control {
+  height: 175px;
+}
+
+footer {
+  height: 150px;
+  background-color: #34547A;
+  max-width: 100%;
+  position: relative;
+}
+footer h3 {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin: 55px 0 20px 0;
+  font-weight: medium;
+}
+footer p {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+footer img {
+  margin-top: 60px;
+}
